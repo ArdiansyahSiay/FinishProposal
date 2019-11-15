@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewNamaRencana2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama rencana:" />
+
+    <EditText
+        android:id="@+id/editTextRencana2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textViewSifatRencana2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sifat rencana:" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSifatRencana2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Penting" />
+
+    <Button
+        android:id="@+id/buttonSimpanPerubahan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan Perubahan Data" />
+
+    <Button
+        android:id="@+id/buttonHapus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hapus Data" />
+
+    <Button
+        android:id="@+id/buttonBatal2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Batal" />
+
+</LinearLayout>

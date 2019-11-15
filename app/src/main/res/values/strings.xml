@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">day1</string>
+    <string name="LoginKaryawan">Login Karyawan</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="btnlogin">Login</string>
+    <string name="title_activity_abautkelompok">abautkelompok</string>
+</resources>
