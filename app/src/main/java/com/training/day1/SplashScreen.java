@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 
 public class SplashScreen extends AppCompatActivity {
-    private int lodingWaktu=1500;
+    private int lodingWaktu=2500;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
